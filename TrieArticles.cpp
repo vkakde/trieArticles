@@ -1,7 +1,6 @@
 #include "TrieArticles.hpp"
 
 template<typename Out>
-
 void split(const string &s, char delim, Out result){
     stringstream ss;
     ss.str(s);
